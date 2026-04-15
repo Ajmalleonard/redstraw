@@ -8,18 +8,18 @@ on:
 jobs:
   publish:
     # prevents this action from running on forks
-    if: github.repository == 'zce/RedStraw'
+    if: github.repository == 'Ajmalleonard/redstraw'
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v6
-      - uses: pnpm/action-setup@v4
-      - uses: actions/setup-node@v6
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v3
+      - uses: actions/setup-node@v4
         with:
           registry-url: https://registry.npmjs.org/
-          node-version: lts/*
+          node-version: 20
           cache: pnpm
       - run: pnpm install
       - run: pnpm build
-      - run: pnpm publish --no-git-checks
+      - run: pnpm -r publish --no-git-checks --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
