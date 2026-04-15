@@ -1,0 +1,6 @@
+.redstraw/
+node_modules/
+*.vsix
+normalize-svgs.js
+convert-icon.js
+package-lock.json

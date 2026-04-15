@@ -1,0 +1,7 @@
+*.pem
+.DS_Store
+node_modules
+
+# RedStraw generated
+/.RedStraw
+/public/static

@@ -1,0 +1,13 @@
+{
+  "name": "@redstraw/basic-starter",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Basic RedStraw starter - Simple content management example",
+  "scripts": {
+    "dev": "redstraw build --watch",
+    "build": "redstraw build"
+  },
+  "devDependencies": {
+    "redstraw": "workspace:*"
+  }
+}

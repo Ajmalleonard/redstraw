@@ -1,0 +1,30 @@
+{
+  "name": "@redstraw/next-starter",
+  "version": "1.0.0",
+  "private": true,
+  "description": "RedStraw + Next.js 16 + Turbopack starter",
+  "type": "module",
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "content": "redstraw build --clean"
+  },
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.1.12",
+    "@tailwindcss/typography": "^0.5.16",
+    "@types/node": "^24.3.0",
+    "@types/react": "19.2.7",
+    "@types/react-dom": "19.2.3",
+    "next": "16.0.7",
+    "next-themes": "^0.4.6",
+    "postcss": "^8.5.6",
+    "react": "19.2.1",
+    "react-dom": "19.2.1",
+    "rehype-pretty-code": "^0.14.1",
+    "shiki": "^3.11.0",
+    "tailwindcss": "^4.1.12",
+    "typescript": "^5.9.2",
+    "redstraw": "workspace:*"
+  }
+}

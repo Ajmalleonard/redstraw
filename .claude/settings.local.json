@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pnpm test *)",
+      "Bash(node -e ' *)",
+      "Bash(pnpm build *)"
+    ]
+  }
+}

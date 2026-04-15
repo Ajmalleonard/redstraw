@@ -1,0 +1,27 @@
+{
+  "name": "@redstraw/plugin-vite",
+  "version": "1.0.0",
+  "description": "Vite plugin for RedStraw - modern type-safe content management",
+  "type": "module",
+  "exports": "./index.js",
+  "types": "./index.d.ts",
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "keywords": [
+    "vite-plugin",
+    "redstraw",
+    "content-management",
+    "type-safe",
+    "nextjs",
+    "turbopack"
+  ],
+  "peerDependencies": {
+    "vite": "^5.0.0 || ^6.0.0 || ^7.0.0",
+    "redstraw": "workspace:*"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

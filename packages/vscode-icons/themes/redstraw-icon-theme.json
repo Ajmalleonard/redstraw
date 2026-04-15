@@ -1,0 +1,35 @@
+{
+  "iconDefinitions": {
+    "_redstraw_file": {
+      "iconPath": "../icons/redstraw-file.svg"
+    },
+    "_redstraw_config": {
+      "iconPath": "../icons/redstraw-config.svg"
+    },
+    "_redstraw_folder": {
+      "iconPath": "../icons/redstraw-folder.svg"
+    },
+    "_redstraw_folder_open": {
+      "iconPath": "../icons/redstraw-folder-open.svg"
+    }
+  },
+  "file": "_redstraw_file",
+  "folder": "_redstraw_folder",
+  "folderExpanded": "_redstraw_folder_open",
+  "fileNames": {
+    "redstraw.config.ts": "_redstraw_config",
+    "redstraw.config.js": "_redstraw_config",
+    "redstraw.config.mjs": "_redstraw_config",
+    "redstraw.config.mts": "_redstraw_config",
+    "redstraw.config.cjs": "_redstraw_config",
+    "redstraw.config.cts": "_redstraw_config"
+  },
+  "fileExtensions": {},
+  "folderNames": {
+    ".redstraw": "_redstraw_folder"
+  },
+  "folderNamesExpanded": {
+    ".redstraw": "_redstraw_folder_open"
+  },
+  "hidesExplorerArrows": false
+}
